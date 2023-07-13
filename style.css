@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(234, 193, 141);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+padding: 25px;
+width: 100vw;
+overflow: hidden;
+font-family: cursive;
+    
+}
+.container{
+background-color: aquamarine;
+max-width: 80%;
+width:800px ;
+box-shadow: 0px 2px 5px black;
+padding: 20px;
+text-align: center;
+border-top-right-radius: 30px;
+border-bottom-left-radius: 30px;
+border-left: 1px solid gold;
+border-right: 1px solid red;
+
+
+}
+h2{
+    margin: 0;
+    font-weight: 500;
+    /* opacity: 0.6;  visibility */
+   
+
+}
+.joke{
+    line-height: 30px;
+    letter-spacing: 1px;
+    max-width: 600px;
+    margin: 30px auto;
+    font-size: 20px;
+
+
+}
+#btn{
+    background-color:whitesmoke;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    font-weight: 600;
+    box-shadow: 0px 3px 5px black;
+    border: 0;
+    border-radius: 5px;
+    padding: 9px 5px;
+    cursor: pointer;
+  
+}
+#btn:hover{
+    background-color: rgb(104, 206, 120);
+    border-radius: 20px;
+    color: whitesmoke;
+}
+
+#btn:active {
+    transform: scale(0.95);
+}
+#btn:focus{
+    outline: 0;
+}
